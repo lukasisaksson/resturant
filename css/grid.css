@@ -1,0 +1,5 @@
+.bildgrid {
+    display: grid;
+    grid-template: repeat(insert number,insert number)repeat(insert number, insert number);
+    grid-gap:"3px"
+}
