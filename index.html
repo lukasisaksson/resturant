@@ -11,12 +11,24 @@
    <body> 
 
      <div class="header">
-          <span class="dropdown"> <h3> Meny </h3>
-                    <div> <a href="mat.html" class="dropdown-content" > Hungrig? </a></div>
-                    <div> <a href="hitta.html" class="dropdown-content"> Var finns vi? </div>        
-                    <div src="kontakt.html" class="dropdown-content"> Kontaktuppgifter? </div>            
-          </span>
-           <img src="img/logga.png" class="logga"> 
+      <img src="img/logga.png" class="logga"> 
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="maindropdown" class="dropdown-content">
+          <div class="dropdown2">
+            <button onclick="myFunction2()" class="dropbtn2">Dropdown</button>
+            <div id="subdropdown" class="dropdown2-content">
+              <a href="hamburgare.html">Hungrig?</a>
+              <a href="drycker.html">Törstig</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>        
+        </ul>
+        
      </div>
      <!-- Detta ovan är header, planen är att denna ska innehålla en hamburgarmeny och även loggan-->
         <h1> 
@@ -35,7 +47,7 @@
    
      <div class="mySlides fade">
        <div class="numbertext">2 / 3</div>
-       <a href="mat.html"> <img src="img/burgmelsal.jpeg" style="width:100%"> </a>
+       <a href="hamburgare.html"> <img src="img/burgmelsal.jpeg" style="width:100%"> </a>
        <div class="text">Burgmel</div>
      </div>
    
