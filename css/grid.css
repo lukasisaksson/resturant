@@ -1,5 +1,20 @@
 .bildgrid {
     display: grid;
-    grid-template: repeat(insert number,insert number)repeat(insert number, insert number);
+    grid-template: repeat(insert number,insert number)/ repeat(insert number, insert number);
     grid-gap:"3px"
+}
+.grid_karta {
+    display: grid;
+    grid-template: 1fr auto 1fr/ repeat(3 450px);
+}
+
+.karta{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.top{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    justify-self: center;
 }

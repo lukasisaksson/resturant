@@ -38,44 +38,6 @@
 .show {display: block;}
 
 
-.dropbtn2 {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn2:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
-
-.dropdown2 {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown2-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2;
-}
-
-.dropdown2-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown2 a:hover {background-color: #ddd;}
-
-.show2 {display: block;}
 
 .logga{
     width: 50px;
@@ -218,5 +180,21 @@ font-family: 'Bebas Neue', cursive;
 
 .karta{
   vertical-align: middle;
+
+}
+
+.stortext{
+  font-size: 20px;
+  color: #c80e18;;
+  font-family: 'Merriweather Sans', sans-serif;
+  
+}
+
+.litentext{
+  font-size:12px;
+  color: #c80e18;
+  font-family: 'Poppins', sans-serif;
+
+
 }
 
